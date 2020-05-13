@@ -1,6 +1,5 @@
-import { visibleHeightAtZDepth, visibleWidthAtZDepth, lerp } from "../utils.js";
-import { nextSlide } from "../main.js";
-import { prevSlide } from "../main.js";
+import { visibleHeightAtZDepth, visibleWidthAtZDepth, lerp } from "./utils";
+import { nextSlide, prevSlide } from "./main";
 
 const raycaster = new THREE.Raycaster();
 const objLoader = new THREE.OBJLoader();
